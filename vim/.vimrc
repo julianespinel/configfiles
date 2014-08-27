@@ -14,7 +14,4 @@ retab
 autocmd VimEnter * NERDTree
 colorscheme molokai
 
-# Uncomment the next line to make nerdtree work properly on vim terminal.
-# let g:NERDTreeDirArrows=0
-
 let g:scala_sort_across_groups=1
