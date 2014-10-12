@@ -39,5 +39,3 @@ echo "vim-clojure-highlight"
 git clone https://github.com/guns/vim-clojure-highlight.git
 echo "vim-clojure-static"
 git clone https://github.com/guns/vim-clojure-static.git
-echo "vim-sexp"
-git clone https://github.com/guns/vim-sexp.git
