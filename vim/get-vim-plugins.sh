@@ -38,3 +38,5 @@ echo "vim-clojure-highlight"
 git clone https://github.com/guns/vim-clojure-highlight.git
 echo "vim-clojure-static"
 git clone https://github.com/guns/vim-clojure-static.git
+echo "vim-go"
+git clone https://github.com/fatih/vim-go.git
