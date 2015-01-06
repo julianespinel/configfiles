@@ -6,7 +6,9 @@ filetype plugin indent on
 
 set number
 set noswapfile
-set hlsearch
+set hlsearch   " Highlights search matches.
+set incsearch  " Searching as you type.
+set ignorecase " Ignore case while searching.
 
 set smartindent
 set tabstop=4
@@ -15,7 +17,7 @@ set expandtab
 retab
 
 autocmd VimEnter * NERDTree
-colorscheme molokai
+colorscheme monokain
 
 let g:scala_sort_across_groups=1
 let g:go_fmt_autosave = 0
