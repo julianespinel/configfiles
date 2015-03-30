@@ -1,5 +1,5 @@
 echo "install curl"
-sudo apt-get install curl
+sudo apt-get -y install curl
 
 echo "install pathogen"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -40,3 +40,6 @@ echo "vim-clojure-static"
 git clone https://github.com/guns/vim-clojure-static.git
 echo "vim-go"
 git clone https://github.com/fatih/vim-go.git
+echo "vim-ack"
+sudo apt-get -y install ack-grep
+git clone https://github.com/mileszs/ack.vim.git
