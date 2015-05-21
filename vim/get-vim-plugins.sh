@@ -13,14 +13,14 @@ echo "nerdtree"
 git clone https://github.com/scrooloose/nerdtree.git
 echo "vim-nerdtree-tabs"
 git clone https://github.com/jistr/vim-nerdtree-tabs.git
-echo "vim-autoclose"
-git clone https://github.com/Townk/vim-autoclose.git
+echo "delimitMate"
+git clone git@github.com:Raimondi/delimitMate.git
 echo "vim-scala"
 git clone https://github.com/derekwyatt/vim-scala.git
 echo "supertab"
 git clone https://github.com/ervandew/supertab.git
-echo "vim-indent-line"
-https://github.com/Yggdroot/indentLine.git
+echo "vim-indent-guides"
+git clone git://github.com/nathanaelkane/vim-indent-guides.git
 echo "mustache.vim"
 git clone https://github.com/juvenn/mustache.vim.git
 echo "syntastic"
