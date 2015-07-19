@@ -19,8 +19,8 @@ echo "vim-scala"
 git clone https://github.com/derekwyatt/vim-scala.git
 echo "supertab"
 git clone https://github.com/ervandew/supertab.git
-echo "vim-indent-guides"
-git clone git://github.com/nathanaelkane/vim-indent-guides.git
+echo "indentLine"
+git clone git@github.com:Yggdroot/indentLine.git
 echo "mustache.vim"
 git clone https://github.com/juvenn/mustache.vim.git
 echo "syntastic"
