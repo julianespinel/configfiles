@@ -1,4 +1,4 @@
-;;; My Emacs config
+;;; My Emacs config: put this file into ./.emacs.d/personal/ assuming you are using emacs prelude.
 (prelude-require-packages '(neotree sublime-themes go-mode powerline))
 (load-theme 'spolsky t)
 (global-set-key [f8] 'neotree-toggle)
