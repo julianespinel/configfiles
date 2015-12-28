@@ -19,7 +19,14 @@ retab
 autocmd VimEnter * NERDTree
 colorscheme monokain
 
-let g:NERDTreeDirArrows=0
 let g:scala_sort_across_groups=1
 let g:go_fmt_autosave = 0
 let g:html_indent_inctags = "html,body,head,tbody"
+
+" Go lang
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_fmt_command = "goimports"
