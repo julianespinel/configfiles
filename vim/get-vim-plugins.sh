@@ -1,6 +1,9 @@
 echo "install curl"
 sudo apt-get -y install curl
 
+echo "ctags"
+sudo apt-get -y install exuberant-ctags 
+
 echo "install pathogen"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
