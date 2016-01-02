@@ -45,3 +45,5 @@ git clone https://github.com/garyburd/go-explorer.git
 echo "vim-ack"
 sudo apt-get -y install ack-grep
 git clone https://github.com/mileszs/ack.vim.git
+echo "tagbar"
+git clone git@github.com:majutsushi/tagbar.git
