@@ -23,5 +23,5 @@ fi
 
 # Go lang
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/go
+export GOPATH=$HOME/work
 export PATH=$PATH:$GOPATH/bin
