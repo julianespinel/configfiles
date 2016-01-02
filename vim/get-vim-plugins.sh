@@ -50,3 +50,5 @@ sudo apt-get -y install ack-grep
 git clone https://github.com/mileszs/ack.vim.git
 echo "tagbar"
 git clone git@github.com:majutsushi/tagbar.git
+echo "vim-commentary"
+git clone git://github.com/tpope/vim-commentary.git
