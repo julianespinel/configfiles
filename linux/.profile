@@ -25,3 +25,6 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/work
 export PATH=$PATH:$GOPATH/bin
+
+# IBus
+export IBUS_ENABLE_SYNC_MODE=1
