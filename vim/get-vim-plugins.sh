@@ -52,3 +52,5 @@ echo "tagbar"
 git clone git@github.com:majutsushi/tagbar.git
 echo "vim-commentary"
 git clone git://github.com/tpope/vim-commentary.git
+echo "typescript-vim"
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
