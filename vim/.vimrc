@@ -44,3 +44,7 @@ let g:tagbar_type_go = {
         \'c:const'
     \]
   \}
+
+" Python
+let python_highlight_all=1
+syntax on
