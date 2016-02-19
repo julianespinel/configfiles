@@ -54,5 +54,5 @@ echo "vim-commentary"
 git clone git://github.com/tpope/vim-commentary.git
 echo "typescript-vim"
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
-echo "python-syntax"
-git clone git@github.com:hdima/python-syntax.git
+echo "python-mode"
+git clone git@github.com:klen/python-mode.git
