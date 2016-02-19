@@ -46,5 +46,5 @@ let g:tagbar_type_go = {
   \}
 
 " Python
-let python_highlight_all=1
 syntax on
+let g:pymode_rope=0
