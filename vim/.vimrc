@@ -48,3 +48,4 @@ let g:tagbar_type_go = {
 " Python
 syntax on
 let g:pymode_rope=0
+let g:pymode_rope_lookup_project = 0
