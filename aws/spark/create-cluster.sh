@@ -1,1 +1,1 @@
-./spark-ec2 --key-pair=spark-keypair --identity-file=aws-credentials/spark-keypair.pem launch challenge-cluster
+./spark-ec2 -k spark-keypair -i aws-credentials/spark-keypair.pem -s 8 launch challenge-cluster
