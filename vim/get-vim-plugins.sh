@@ -56,3 +56,10 @@ echo "typescript-vim"
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 echo "python-mode"
 git clone https://github.com/klen/python-mode.git
+echo "vim-ruby"
+git clone git://github.com/vim-ruby/vim-ruby.git ~/.vim/bundle/vim-ruby
+echo "vim-fugitive"
+git clone git://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
+echo "vim-git"
+git clone https://github.com/tpope/vim-git.git
