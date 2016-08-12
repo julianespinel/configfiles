@@ -17,13 +17,13 @@ git clone https://github.com/scrooloose/nerdtree.git
 echo "vim-nerdtree-tabs"
 git clone https://github.com/jistr/vim-nerdtree-tabs.git
 echo "delimitMate"
-git clone git@github.com:Raimondi/delimitMate.git
+git clone https://github.com/Raimondi/delimitMate.git
 echo "vim-scala"
 git clone https://github.com/derekwyatt/vim-scala.git
 echo "supertab"
 git clone https://github.com/ervandew/supertab.git
 echo "indentLine"
-git clone git@github.com:Yggdroot/indentLine.git
+git clone https://github.com/Yggdroot/indentLine.git
 echo "mustache.vim"
 git clone https://github.com/juvenn/mustache.vim.git
 echo "syntastic"
@@ -35,8 +35,9 @@ git clone https://github.com/kien/ctrlp.vim.git
 echo "vim-javascript"
 git clone https://github.com/pangloss/vim-javascript.git
 echo "vim-fireplace"
-git clone git://github.com/tpope/vim-fireplace.git
-git clone git://github.com/tpope/vim-classpath.git
+git clone https://github.com/tpope/vim-fireplace.git 
+echo "vim-classpath"
+git clone https://github.com/tpope/vim-classpath.git
 echo "vim-clojure-highlight"
 git clone https://github.com/guns/vim-clojure-highlight.git
 echo "vim-clojure-static"
@@ -49,17 +50,17 @@ echo "vim-ack"
 sudo apt-get -y install ack-grep
 git clone https://github.com/mileszs/ack.vim.git
 echo "tagbar"
-git clone git@github.com:majutsushi/tagbar.git
+git clone https://github.com/majutsushi/tagbar.git
 echo "vim-commentary"
-git clone git://github.com/tpope/vim-commentary.git
+git clone https://github.com/tpope/vim-commentary.git
 echo "typescript-vim"
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 echo "python-mode"
 git clone https://github.com/klen/python-mode.git
 echo "vim-ruby"
-git clone git://github.com/vim-ruby/vim-ruby.git ~/.vim/bundle/vim-ruby
+git clone https://github.com/vim-ruby/vim-ruby.git
 echo "vim-fugitive"
-git clone git://github.com/tpope/vim-fugitive.git
+git clone https://github.com/tpope/vim-fugitive.git
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 echo "vim-git"
 git clone https://github.com/tpope/vim-git.git
