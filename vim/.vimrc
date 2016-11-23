@@ -51,3 +51,11 @@ let g:pymode_rope = 0
 let g:pymode_folding = 0
 let g:pymode_rope_autoimport = 0
 let g:pymode_rope_lookup_project = 0
+
+" Extras
+
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove tool bar
+set guioptions-=r  "remove scroll bar"
+set guioptions-=L "remove nerdtree scroll bar"
+set guifont=Monospace\ 12
