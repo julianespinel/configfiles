@@ -59,3 +59,6 @@ set guioptions-=T  "remove tool bar
 set guioptions-=r  "remove scroll bar"
 set guioptions-=L "remove nerdtree scroll bar"
 set guifont=Monospace\ 12
+
+set foldmethod=indent
+set cursorline
