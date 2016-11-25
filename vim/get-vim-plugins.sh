@@ -64,3 +64,5 @@ git clone https://github.com/tpope/vim-fugitive.git
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 echo "vim-git"
 git clone https://github.com/tpope/vim-git.git
+echo "vim-json"
+git clone https://github.com/elzr/vim-json.git
