@@ -56,7 +56,17 @@ let g:pymode_folding = 0
 let g:pymode_rope_autoimport = 0
 let g:pymode_rope_lookup_project = 0
 
-" Extras
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Extras UI
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove tool bar
