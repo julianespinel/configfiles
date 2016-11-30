@@ -36,7 +36,17 @@ let g:go_fmt_command = "goimports"
 let g:go_fmt_autosave = 1
 let g:go_list_type = "quickfix"
 
-autocmd FileType go nmap <leader>b  <Plug>(go-build)
+" run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#cmd#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
+
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
 " TagBar
 nmap <F8> :TagbarToggle<CR>
