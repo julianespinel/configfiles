@@ -18,6 +18,7 @@ set expandtab
 retab
 
 autocmd VimEnter * NERDTree
+let NERDTreeIgnore = ['\.pyc$']
 colorscheme monokain
 
 " Scala
