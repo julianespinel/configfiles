@@ -1,6 +1,9 @@
 execute pathogen#infect()
 
+set t_Co=256
+
 syntax on
+syntax enable
 filetype plugin indent on
 
 let mapleader = ","
@@ -96,8 +99,12 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" Golang
 let g:syntastic_go_checkers = ['go', 'golint', 'govet']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
+" Javascript
+let g:syntastic_javascript_checkers = ['jshint']
 
 " Extras UI
 
@@ -105,7 +112,8 @@ set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove tool bar
 set guioptions-=r  "remove scroll bar"
 set guioptions-=L "remove nerdtree scroll bar"
-set guifont=Monospace\ 12
+set guifont=Monospace\ 11
 
 set foldmethod=indent
 set cursorline
+set clipboard=unnamedplus
