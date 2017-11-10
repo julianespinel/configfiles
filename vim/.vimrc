@@ -107,6 +107,11 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 " Javascript
 let g:syntastic_javascript_checkers = ['jshint']
 
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+
 " Extras UI
 
 set guioptions-=m  "remove menu bar
