@@ -123,3 +123,9 @@ set guifont=Monospace\ 11
 set foldmethod=indent
 set cursorline
 set clipboard=unnamedplus
+
+" Resize splits
+map <C-S-Down> :resize -1
+map <C-S-Left> :vertical resize -1
+map <C-S-Up> :resize +1
+map <C-S-Right> :vertical resize +1
