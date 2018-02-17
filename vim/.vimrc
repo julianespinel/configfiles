@@ -129,3 +129,6 @@ map <C-S-Down> :resize -1
 map <C-S-Left> :vertical resize -1
 map <C-S-Up> :resize +1
 map <C-S-Right> :vertical resize +1
+
+" Open Gdiff in vertical splits.
+set diffopt+=vertical
