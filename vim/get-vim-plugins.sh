@@ -55,8 +55,8 @@ echo "vim-commentary"
 git clone https://github.com/tpope/vim-commentary.git
 echo "typescript-vim"
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
-echo "python-mode"
-git clone https://github.com/klen/python-mode.git
+echo "jedi-vim"
+git clone https://github.com/davidhalter/jedi-vim.git
 echo "vim-ruby"
 git clone https://github.com/vim-ruby/vim-ruby.git
 echo "vim-fugitive"
