@@ -23,7 +23,7 @@ fi
 
 # Go lang
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/work
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # IBus
