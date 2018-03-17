@@ -68,3 +68,5 @@ echo "vim-json"
 git clone https://github.com/elzr/vim-json.git
 echo "vim-toml"
 git clone https://github.com/cespare/vim-toml.git
+echo "vim-visualstar"
+git clone https://github.com/thinca/vim-visualstar.git
