@@ -136,3 +136,6 @@ map <C-S-PageDown> :tabmove +1
 
 " Open Gdiff in vertical splits.
 set diffopt+=vertical
+
+" Disable beep sound
+set belloff=all
