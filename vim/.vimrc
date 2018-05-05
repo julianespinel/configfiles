@@ -142,10 +142,5 @@ set diffopt+=vertical
 " Disable beep sound
 set belloff=all
 
-" Supertab
-let g:SuperTabDefaultCompletionType = "context"
-let g:SuperTabCrMapping = 1
-let g:SuperTabLongestEnhanced = 1
-let g:SuperTabCompletionContexts = ['s:ContextText', 's:ContextDiscover']
-let g:SuperTabContextTextOmniPrecedence = ['&completefunc', '&omnifunc']
-let g:SuperTabContextDiscoverDiscovery =  ["&completefunc:<c-x><c-u>", "&omnifunc:<c-x><c-o>"]
+" Neocomplete
+let g:neocomplete#enable_at_startup = 1
