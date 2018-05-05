@@ -68,5 +68,5 @@ echo "vim-toml"
 git clone https://github.com/cespare/vim-toml.git
 echo "vim-visualstar"
 git clone https://github.com/thinca/vim-visualstar.git
-echo "neocompleteme"
+echo "neocomplete"
 git clone https://github.com/Shougo/neocomplete.vim.git
