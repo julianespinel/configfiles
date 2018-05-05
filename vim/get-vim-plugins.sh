@@ -20,8 +20,6 @@ echo "delimitMate"
 git clone https://github.com/Raimondi/delimitMate.git
 echo "vim-scala"
 git clone https://github.com/derekwyatt/vim-scala.git
-echo "supertab"
-git clone https://github.com/ervandew/supertab.git
 echo "indentLine"
 git clone https://github.com/Yggdroot/indentLine.git
 echo "mustache.vim"
@@ -70,3 +68,5 @@ echo "vim-toml"
 git clone https://github.com/cespare/vim-toml.git
 echo "vim-visualstar"
 git clone https://github.com/thinca/vim-visualstar.git
+echo "neocompleteme"
+git clone https://github.com/Shougo/neocomplete.vim.git
