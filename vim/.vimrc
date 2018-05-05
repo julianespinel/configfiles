@@ -54,6 +54,7 @@ endfunction
 autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
 " TagBar
+autocmd VimEnter * nested :TagbarOpen
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_type_go = {  
       \ 'ctagstype' : 'go',
