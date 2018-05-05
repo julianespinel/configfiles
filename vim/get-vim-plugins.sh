@@ -24,8 +24,6 @@ echo "indentLine"
 git clone https://github.com/Yggdroot/indentLine.git
 echo "mustache.vim"
 git clone https://github.com/juvenn/mustache.vim.git
-echo "syntastic"
-git clone https://github.com/scrooloose/syntastic.git
 echo "vim-airline"
 git clone https://github.com/bling/vim-airline.git
 echo "ctrlp.vim"
@@ -70,3 +68,5 @@ echo "vim-visualstar"
 git clone https://github.com/thinca/vim-visualstar.git
 echo "neocomplete"
 git clone https://github.com/Shougo/neocomplete.vim.git
+echo "ale"
+git clone https://github.com/w0rp/ale.git
