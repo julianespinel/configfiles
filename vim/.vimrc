@@ -14,6 +14,7 @@ set hlsearch   " Highlights search matches.
 set incsearch  " Searching as you type.
 set ignorecase " Ignore case while searching.
 
+set autoindent
 set smartindent
 set tabstop=2
 set shiftwidth=2
@@ -130,3 +131,16 @@ set belloff=all
 
 " Neocomplete
 let g:neocomplete#enable_at_startup = 1
+
+" Jedi
+let g:jedi#use_tabs_not_buffers = 1
+let g:jedi#goto_command = "<leader>d"
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = ""
+let g:jedi#documentation_command = "K"
+let g:jedi#usages_command = "<leader>n"
+let g:jedi#completions_command = "<C-Space>"
+let g:jedi#rename_command = "<leader>r"
+
+" vim-autoformat
+noremap <F3> :Autoformat<CR>
