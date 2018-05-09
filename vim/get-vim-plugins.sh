@@ -70,3 +70,5 @@ echo "neocomplete"
 git clone https://github.com/Shougo/neocomplete.vim.git
 echo "ale"
 git clone https://github.com/w0rp/ale.git
+echo "vim-autoformat"
+git clone https://github.com/Chiel92/vim-autoformat.git
