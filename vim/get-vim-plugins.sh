@@ -72,3 +72,7 @@ echo "ale"
 git clone https://github.com/w0rp/ale.git
 echo "vim-autoformat"
 git clone https://github.com/Chiel92/vim-autoformat.git
+echo "vim-elixir"
+git clone https://github.com/elixir-lang/vim-elixir.git
+echo "vim-mix-format"
+git clone https://github.com/mhinz/vim-mix-format.git
