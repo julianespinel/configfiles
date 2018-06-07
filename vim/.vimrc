@@ -145,3 +145,6 @@ let g:jedi#rename_command = "<leader>r"
 
 " vim-autoformat
 noremap <F3> :Autoformat<CR>
+
+" Elixir
+let g:mix_format_on_save = 1
