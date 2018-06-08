@@ -19,6 +19,7 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set linespace=4
 retab
 
 autocmd VimEnter * NERDTree
@@ -144,3 +145,6 @@ let g:jedi#rename_command = "<leader>r"
 
 " vim-autoformat
 noremap <F3> :Autoformat<CR>
+
+" Elixir
+let g:mix_format_on_save = 1
