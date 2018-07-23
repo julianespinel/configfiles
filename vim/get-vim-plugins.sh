@@ -76,3 +76,5 @@ echo "vim-elixir"
 git clone https://github.com/elixir-lang/vim-elixir.git
 echo "vim-mix-format"
 git clone https://github.com/mhinz/vim-mix-format.git
+echo "vim-surround"
+git clone https://github.com/tpope/vim-surround.git
