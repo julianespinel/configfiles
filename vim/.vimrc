@@ -23,6 +23,7 @@ set linespace=4
 retab
 
 autocmd VimEnter * NERDTree
+nmap <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeShowHidden=1
 colorscheme monokain
