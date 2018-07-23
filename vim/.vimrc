@@ -23,9 +23,11 @@ set linespace=4
 retab
 
 autocmd VimEnter * NERDTree
-nmap <F2> :NERDTreeToggle<CR>
+nmap <F2> :NERDTreeTabsToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeShowHidden=1
+let g:nerdtree_tabs_no_startup_for_diff = 1
+
 colorscheme monokain
 
 " Scala
