@@ -55,6 +55,8 @@ echo "jedi-vim"
 git clone https://github.com/davidhalter/jedi-vim.git
 echo "vim-ruby"
 git clone https://github.com/vim-ruby/vim-ruby.git
+echo "vim-rails"
+git clone https://github.com/tpope/vim-rails.git
 echo "vim-fugitive"
 git clone https://github.com/tpope/vim-fugitive.git
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
