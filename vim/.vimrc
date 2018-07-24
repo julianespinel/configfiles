@@ -22,10 +22,10 @@ set expandtab
 set linespace=4
 retab
 
-autocmd VimEnter * NERDTree
-nmap <F2> :NERDTreeTabsToggle<CR>
+nmap <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeShowHidden=1
+let g:nerdtree_tabs_open_on_gui_startup = 0
 let g:nerdtree_tabs_no_startup_for_diff = 1
 
 colorscheme monokain
