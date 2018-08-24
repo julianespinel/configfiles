@@ -177,3 +177,9 @@ noremap <F3> :Autoformat<CR>
 
 " Elixir
 let g:mix_format_on_save = 1
+
+" Color 80th column
+if (exists('+colorcolumn'))
+    set colorcolumn=80
+    highlight ColorColumn ctermbg=9
+endif
