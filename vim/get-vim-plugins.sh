@@ -80,3 +80,5 @@ echo "vim-mix-format"
 git clone https://github.com/mhinz/vim-mix-format.git
 echo "vim-surround"
 git clone https://github.com/tpope/vim-surround.git
+echo "vim-better-whitespace"
+git clone https://github.com/ntpeters/vim-better-whitespace.git
