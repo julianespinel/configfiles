@@ -40,8 +40,6 @@ echo "vim-clojure-static"
 git clone https://github.com/guns/vim-clojure-static.git
 echo "vim-go"
 git clone https://github.com/fatih/vim-go.git
-echo "go-explorer"
-git clone https://github.com/garyburd/go-explorer.git
 echo "vim-ack"
 sudo apt-get -y install ack-grep
 git clone https://github.com/mileszs/ack.vim.git
