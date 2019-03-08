@@ -80,3 +80,9 @@ echo "vim-surround"
 git clone https://github.com/tpope/vim-surround.git
 echo "vim-better-whitespace"
 git clone https://github.com/ntpeters/vim-better-whitespace.git
+echo "haskell-vim"
+git clone https://github.com/neovimhaskell/haskell-vim.git
+echo "vim-stylishask"
+git clone https://github.com/alx741/vim-stylishask.git
+echo "vim-polyglot"
+git clone https://github.com/sheerun/vim-polyglot.git
