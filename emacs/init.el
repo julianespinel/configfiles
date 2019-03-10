@@ -7,6 +7,14 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
+;;; show line numbers
+(global-linum-mode 1)
+
+;;; turn on highlighting current line
+(global-hl-line-mode 1)
+
+;;; turn on bracket match highlight
+(show-paren-mode 1)
 ;;; monokai
 (package-install 'monokai-theme)
 (load-theme 'monokai t)
