@@ -17,6 +17,10 @@
 ;;; turn on bracket match highlight
 (show-paren-mode 1)
 
+;;; UTF-8 as default encoding
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
+
 ;;; Evil mode
 (package-install 'evil)
 (require 'evil)
