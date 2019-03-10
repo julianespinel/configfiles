@@ -38,7 +38,7 @@
 ;;; Neotree
 (package-install 'neotree)
 (require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key [f2] 'neotree-toggle)
 (setq neo-theme 'nerd)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
