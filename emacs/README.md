@@ -1,7 +1,5 @@
 # Emacs
 
-This is the Emacs configuration I use.
-
 I use Evil mode for navigation.
 
 ## Installation
