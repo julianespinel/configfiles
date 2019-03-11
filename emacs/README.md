@@ -17,3 +17,11 @@ I use Evil mode for navigation.
 * Kill buffer: `C-x k`
 * Open file: `C-x C-f`
 * Change window: `M-o`
+* Increase font size: `C-x C-+`
+* Decrease font size: `C-x C--`
+* Reset font size: `C-x C-0`
+
+# Tags
+
+1. Generate erlang tags: `sudo find / -name "*.[he]rl" -print | etags -`
+1. How to use them: http://erlang.org/doc/man/erlang.el.html#tags
