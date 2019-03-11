@@ -26,6 +26,12 @@
 (require 'evil)
 (evil-mode 1)
 
+;;; Evil comentary
+(package-install 'evil-commentary)
+(require 'evil-commentary)
+(evil-commentary-mode)
+
+
 ;;; monokai
 (package-install 'monokai-theme)
 (load-theme 'monokai t)
@@ -51,7 +57,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (magit flycheck company markdown-mode neotree powerline all-the-icons monokai-theme))))
+    (evil-comentary ace-window evil magit flycheck company markdown-mode neotree powerline all-the-icons monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
