@@ -95,3 +95,8 @@
 
 ;;; backup in one place. flat, no tree structure
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
+
+
+;;; Ace window
+(package-install 'ace-window)
+(global-set-key (kbd "M-o") 'ace-window)
