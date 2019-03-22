@@ -8,6 +8,7 @@
 1. Use ggtags: https://github.com/leoliu/ggtags
 1. Use eldoc-mode: https://www.emacswiki.org/emacs/ElDoc
 1. Use CEDET for Java development: http://cedet.sourceforge.net/
+1. Use Intero for Haskell: https://github.com/chrisdone/intero
 
 ## Questions
 
