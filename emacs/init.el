@@ -2,7 +2,6 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
-(package-refresh-contents)
 
 ;;; Hide menu bar
 (menu-bar-mode -1)
@@ -30,7 +29,6 @@
 (package-install 'evil-commentary)
 (require 'evil-commentary)
 (evil-commentary-mode)
-
 
 ;;; monokai
 (package-install 'monokai-theme)
@@ -108,3 +106,8 @@
 (setq erlang-root-dir "/usr/lib/erlang")
 (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
 (require 'erlang-start)
+
+;;; Haskell
+;; Install Intero
+(package-install 'intero)
+(add-hook 'haskell-mode-hook 'intero-mode)
