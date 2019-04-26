@@ -2,7 +2,7 @@ echo "install curl"
 sudo apt-get -y install curl
 
 echo "ctags"
-sudo apt-get -y install exuberant-ctags 
+sudo apt-get -y install exuberant-ctags
 
 echo "install pathogen"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -31,7 +31,7 @@ git clone https://github.com/kien/ctrlp.vim.git
 echo "vim-javascript"
 git clone https://github.com/pangloss/vim-javascript.git
 echo "vim-fireplace"
-git clone https://github.com/tpope/vim-fireplace.git 
+git clone https://github.com/tpope/vim-fireplace.git
 echo "vim-classpath"
 git clone https://github.com/tpope/vim-classpath.git
 echo "vim-clojure-highlight"
