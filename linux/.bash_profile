@@ -31,3 +31,6 @@ export IBUS_ENABLE_SYNC_MODE=1
 
 # Elixir
 export PATH="$PATH:/path/to/elixir/bin"
+
+# Haskell's Stack
+export PATH="$PATH:$HOME/.local/bin"
