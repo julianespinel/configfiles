@@ -1,0 +1,24 @@
+[core]
+  whitespace = blank-at-eol
+
+[user]
+  #email =
+  #name =
+
+[push]
+  default = current
+
+[core]
+  editor = vim
+
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  pager = true
+  status = auto
+  ui = true
+
+[diff]
+  tool = vimdiff
+  wsErrorHighlight = all
