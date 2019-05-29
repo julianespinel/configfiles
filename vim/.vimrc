@@ -197,3 +197,7 @@ let g:stylishask_on_save = 1
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+
+" Do not hide text
+let g:indentLine_setConceal = 0
+
