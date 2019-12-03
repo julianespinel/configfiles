@@ -131,4 +131,9 @@
 ;;;; Highlight trailing whitespace
 (setq-default show-trailing-whitespace t)
 
+;;;; Pane resize
+(global-set-key (kbd "s-{") 'shrink-window-horizontally)
+(global-set-key (kbd "s-}") 'enlarge-window-horizontally)
+
 ;;; Custom extras end
+
