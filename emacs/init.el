@@ -112,3 +112,9 @@
 ;;;; Install Intero
 (package-install 'intero)
 (add-hook 'haskell-mode-hook 'intero-mode)
+
+;;; Terminal
+;;;; Paste in terminal
+(eval-after-load "term"
+                 '(define-key term-raw-map (kbd "C-c C-y") 'term-paste))
+
