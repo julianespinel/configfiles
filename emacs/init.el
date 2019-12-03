@@ -119,10 +119,16 @@
                  '(define-key term-raw-map (kbd "C-c C-y") 'term-paste))
 
 
-;;; Custom extras
+;;; Custom extras start
+
 ;;;; Increase and decrease font
 (global-set-key (kbd "s-=") 'text-scale-increase)
 (global-set-key (kbd "s--") 'text-scale-decrease)
+
 ;;;; Copy to clipboard
 (setq x-select-enable-clipboard t)
 
+;;;; Highlight trailing whitespace
+(setq-default show-trailing-whitespace t)
+
+;;; Custom extras end
