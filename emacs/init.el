@@ -101,11 +101,11 @@
 
 
 ;;; Erlang
-(setq load-path (cons  "/usr/lib/erlang/lib/tools-3.0.2/emacs"
-		       load-path))
-(setq erlang-root-dir "/usr/lib/erlang")
-(setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
-(require 'erlang-start)
+; (setq load-path (cons  "/usr/lib/erlang/lib/tools-3.0.2/emacs"
+; 		       load-path))
+; (setq erlang-root-dir "/usr/lib/erlang")
+; (setq exec-path (cons "/usr/lib/erlang/bin" exec-path))
+; (require 'erlang-start)
 
 ;;; Haskell
 ;; Install Intero
