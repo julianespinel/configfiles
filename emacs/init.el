@@ -108,6 +108,7 @@
 ; (require 'erlang-start)
 
 ;;; Haskell
-;; Install Intero
+(package-install 'haskell-mode)
+;;;; Install Intero
 (package-install 'intero)
 (add-hook 'haskell-mode-hook 'intero-mode)
