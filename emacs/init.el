@@ -135,9 +135,23 @@
 ;;;; Highlight trailing whitespace
 (setq-default show-trailing-whitespace t)
 
-;;;; Pane resize
-(global-set-key (kbd "s-{") 'shrink-window-horizontally)
-(global-set-key (kbd "s-}") 'enlarge-window-horizontally)
+;;;; Window resize
+(defconst resize-units 3 "Value to increase/decrese windows")
+
+(defun decrease-window-size ()
+  "Decrease window size by n units."
+  (interactive)
+  (shrink-window-horizontally resize-units))
+
+
+(defun increase-window-size ()
+  "Increase window size by n units."
+  (interactive)
+  (enlarge-window-horizontally resize-units))
+
+
+(global-set-key (kbd "s-{") 'decrease-window-size)
+(global-set-key (kbd "s-}") 'increase-window-size)
 
 ;;; Custom extras end
 
