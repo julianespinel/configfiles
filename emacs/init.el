@@ -3,6 +3,9 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
+;;; Add to Emacs path
+(setq exec-path (cons "~/.local/bin" exec-path))
+
 ;;; Hide menu bar
 (menu-bar-mode -1)
 (tool-bar-mode -1)
