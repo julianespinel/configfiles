@@ -86,3 +86,5 @@ echo "vim-stylishask"
 git clone https://github.com/alx741/vim-stylishask.git
 echo "vim-polyglot"
 git clone https://github.com/sheerun/vim-polyglot.git
+echo "vim-stylish-haskell"
+git clone git@github.com:nbouscal/vim-stylish-haskell.git

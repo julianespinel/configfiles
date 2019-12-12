@@ -20,6 +20,8 @@ I use Evil mode for navigation.
 * Increase font size: `C-x C-+`
 * Decrease font size: `C-x C--`
 * Reset font size: `C-x C-0`
+* Vertilcal to horizontal: `M-x transpose-frame`
+* Flop frames: `M-x flop-frame`
 
 # Tags
 
