@@ -6,6 +6,9 @@
 ;;; Add to Emacs path
 (setq exec-path (cons "~/.local/bin" exec-path))
 
+;;; Hide startup screen
+(setq inhibit-startup-screen t)
+
 ;;; Hide menu bar
 (menu-bar-mode -1)
 (tool-bar-mode -1)
