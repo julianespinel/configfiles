@@ -130,3 +130,12 @@ else
  PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
 fi
 unset color_prompt force_color_prompt
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/jceg/.sdkman"
+[[ -s "/home/jceg/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jceg/.sdkman/bin/sdkman-init.sh"
+
+# Use Emacs client as default editor
+export ALTERNATE_EDITOR=""
+export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
+export VISUAL="emacsclient -c -a emacs"         # $VISUAL opens in GUI mode
