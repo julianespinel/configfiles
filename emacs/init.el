@@ -22,6 +22,9 @@
 ;;; turn on bracket match highlight
 (show-paren-mode 1)
 
+;;; Autorefresh buffers
+(global-auto-revert-mode t)
+
 ;;; UTF-8 as default encoding
 (set-language-environment "UTF-8")
 (set-default-coding-systems 'utf-8)
