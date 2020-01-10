@@ -60,7 +60,7 @@
  '(haskell-stylish-on-save t)
  '(package-selected-packages
    (quote
-    (evil-commentary intero haskell-mode evil-comentary ace-window evil magit flycheck company markdown-mode powerline all-the-icons monokai-theme))))
+    (evil-commentary haskell-mode evil-comentary ace-window evil magit flycheck company markdown-mode powerline all-the-icons monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -114,9 +114,6 @@
 
 ;;; Haskell
 (package-install 'haskell-mode)
-;;;; Install Intero
-(package-install 'intero)
-(add-hook 'haskell-mode-hook 'intero-mode)
 
 ;;; Terminal
 ;;;; Paste in terminal
