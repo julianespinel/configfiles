@@ -6,6 +6,7 @@ cp init.el ~/.emacs.d/
 # Start Emacs as daemon
 cp emacs.service ~/.config/systemd/user/emacs.service
 systemctl enable --user emacs
+systemctl stop --user emacs
 systemctl start --user emacs
 systemctl --user status emacs
 
