@@ -20,3 +20,8 @@ Maximaze/minimize pane: `ctrl-z`
 
 See: https://superuser.com/a/231159/722429
 
+## Select Copy and paste
+
+1. To select with mouse: `shift` + select with mouse
+1. When text is selected: `ctrl + shift + c` (in Ubuntu)
+1. Then to paste: `ctrl + v` (outside the terminal) or `ctrl + shift + v` (in the terminal)
