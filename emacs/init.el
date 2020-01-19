@@ -29,6 +29,10 @@
 (set-language-environment "UTF-8")
 (set-default-coding-systems 'utf-8)
 
+;;; Add new line by the end of the file if not present
+(setq require-final-newline t)
+(setq mode-require-final-newline t)
+
 ;;; Evil mode
 (package-install 'evil)
 (require 'evil)
