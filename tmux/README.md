@@ -22,6 +22,14 @@ See: https://superuser.com/a/231159/722429
 
 ## Select Copy and paste
 
+### Ubuntu
+
 1. To select with mouse: `shift` + select with mouse
-1. When text is selected: `ctrl + shift + c` (in Ubuntu)
+1. When text is selected: `ctrl + shift + c`
 1. Then to paste: `ctrl + v` (outside the terminal) or `ctrl + shift + v` (in the terminal)
+
+### MacOS
+
+1. To select with mouse: `fn` + select with mouse
+1. When text is selected: `cmd + c`
+1. Then to paste: `cmd + v`
