@@ -161,7 +161,6 @@ let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
 let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
 let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
 let g:haskell_backpack = 1                " to enable highlighting of backpack keywords
-let g:stylishask_on_save = 1
 
 " Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
