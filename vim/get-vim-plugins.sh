@@ -1,9 +1,6 @@
 echo "install curl"
 sudo apt-get -y install curl
 
-echo "ctags"
-sudo apt-get -y install exuberant-ctags
-
 echo "install pathogen"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -43,8 +40,6 @@ git clone https://github.com/fatih/vim-go.git
 echo "vim-ack"
 sudo apt-get -y install ack-grep
 git clone https://github.com/mileszs/ack.vim.git
-echo "tagbar"
-git clone https://github.com/majutsushi/tagbar.git
 echo "vim-commentary"
 git clone https://github.com/tpope/vim-commentary.git
 echo "typescript-vim"
