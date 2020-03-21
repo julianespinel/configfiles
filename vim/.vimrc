@@ -85,7 +85,12 @@ set guifont=Monospace\ 11
 
 set foldmethod=indent
 set cursorline
-set clipboard=unnamedplus
+
+if system('uname -s') == "Darwin\n"
+  set clipboard=unnamed "OSX
+else
+  set clipboard=unnamedplus "Linux
+endif
 
 " Resize splits
 map <C-S-Down> :resize -1
