@@ -86,6 +86,9 @@ set guifont=Monospace\ 14
 set foldmethod=indent
 set cursorline
 
+" Modify visual selection color
+highlight Visual term=reverse cterm=reverse guifg=Yellow
+
 if system('uname -s') == "Darwin\n"
   set clipboard=unnamed "OSX
 else
