@@ -132,6 +132,6 @@ fi
 unset color_prompt force_color_prompt
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/jceg/.sdkman"
-[[ -s "/home/jceg/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jceg/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="~/.sdkman"
+[[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
 
