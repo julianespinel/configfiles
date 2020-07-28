@@ -26,9 +26,6 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# IBus
-export IBUS_ENABLE_SYNC_MODE=1
-
 # Elixir
 export PATH="$PATH:/path/to/elixir/bin"
 
