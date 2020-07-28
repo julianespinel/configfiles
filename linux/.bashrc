@@ -135,7 +135,3 @@ unset color_prompt force_color_prompt
 export SDKMAN_DIR="/home/jceg/.sdkman"
 [[ -s "/home/jceg/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jceg/.sdkman/bin/sdkman-init.sh"
 
-# Use Emacs client as default editor
-export ALTERNATE_EDITOR=""
-export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
-export VISUAL="emacsclient -c -a emacs"         # $VISUAL opens in GUI mode
