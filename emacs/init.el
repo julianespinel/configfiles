@@ -63,8 +63,7 @@
  ;; If there is more than one, they won't work right.
  '(haskell-stylish-on-save t)
  '(package-selected-packages
-   (quote
-    (evil-commentary haskell-mode evil-comentary ace-window evil magit flycheck company markdown-mode powerline all-the-icons monokai-theme))))
+   '(neotree evil-commentary haskell-mode evil-comentary ace-window evil magit flycheck company markdown-mode powerline all-the-icons monokai-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -107,6 +106,13 @@
 ;;; Ace window
 (package-install 'ace-window)
 (global-set-key (kbd "M-o") 'ace-window)
+
+
+;;; Neo Tree
+(package-install 'neotree)
+(require 'neotree)
+(global-set-key [f2] 'neotree-toggle)
+(setq neo-theme 'nerd)
 
 
 ;;; Erlang
